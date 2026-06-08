@@ -41,7 +41,6 @@ public abstract class Vehicle {
     }
     
     public static void main(String[] args) {
-        // TODO code application logic here
         Vehicle myCar01 = new Car("Toyota","Corolla",2022,4);
         Vehicle myEV01 = new ElectricVehicle("Tesla","Model S",2023,100);
         Vehicle myCar02 = new Car("Proton","Saga",2020,4);
